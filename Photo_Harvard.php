@@ -71,42 +71,10 @@ document.getElementById('topnav-Photo').setAttribute("style","background-color:#
 </script>
 <div id="body" style="overflow:hidden; box-sizing: border-box; padding:10px; text-align:center">
 	<div id="pwd"> <a href="index.php">Home</a> / <a href="Photo.php">Photo</a> / <a href="Photo_Harvard.php">Harvard</a></div>
-	<a href="img/Harvard/1.jpg" data-lightbox="Harvard" data-title="hahahahahah" >
-	<img src="img/Harvard/thumbnail/1.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/Harvard/2.jpg" data-lightbox="Harvard">
-	<img src="img/Harvard/thumbnail/2.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/Harvard/3.jpg" data-lightbox="Harvard">
-	<img src="img/Harvard/thumbnail/3.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/Harvard/4.jpg" data-lightbox="Harvard">
-	<img src="img/Harvard/thumbnail/4.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/Harvard/5.jpg" data-lightbox="Harvard">
-	<img src="img/Harvard/thumbnail/5.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/Harvard/6.jpg" data-lightbox="Harvard">
-	<img src="img/Harvard/thumbnail/6.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/Harvard/7.jpg" data-lightbox="Harvard">
-	<img src="img/Harvard/thumbnail/7.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/Harvard/8.jpg" data-lightbox="Harvard">
-	<img src="img/Harvard/thumbnail/8.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/Harvard/9.jpg" data-lightbox="Harvard">
-	<img src="img/Harvard/thumbnail/9.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/Harvard/10.jpg" data-lightbox="Harvard">
-	<img src="img/Harvard/thumbnail/10.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/Harvard/11.jpg" data-lightbox="Harvard">
-	<img src="img/Harvard/thumbnail/11.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/Harvard/12.jpg" data-lightbox="Harvard">
-	<img src="img/Harvard/thumbnail/12.jpg" height="200px" style="margin:10px;">
-	</a>
+	<?php
+	$which = "Harvard";
+	include("showimg.php");
+	?>
 </div>
 <?php
 include 'dropdown.html';

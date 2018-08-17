@@ -71,55 +71,10 @@ include 'webtop.html';
 document.getElementById('topnav-Photo').setAttribute("style","background-color:#F5F5F5;color:#000080");
 </script>
 <div id="body" style="overflow:hidden; box-sizing: border-box; padding:10px; text-align:center">
-	<div id="pwd"> <a href="index.php">Home</a> / <a href="Photo.php">Photo</a> / <a href="Photo_UCLA.php">UCLA</a></div>
-	<a href="img/UCLA/1.jpg" data-lightbox="ucla" data-title="hahahahahah" >
-	<img src="img/UCLA/thumbnail/1.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/2.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/2.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/3.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/3.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/4.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/4.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/5.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/5.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/6.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/6.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/7.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/7.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/8.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/8.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/9.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/9.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/10.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/10.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/11.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/11.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/12.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/12.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/13.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/13.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/14.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/14.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/15.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/15.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/UCLA/16.jpg" data-lightbox="ucla">
-	<img src="img/UCLA/thumbnail/16.jpg" width="200px" style="margin:10px;">
-	</a>
+	<?php
+        $which = "UCLA";
+        include("showimg.php");
+        ?>
 </div>
 <?php
 include 'dropdown.html';

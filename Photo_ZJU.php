@@ -68,37 +68,10 @@ include 'webtop.html';
 document.getElementById('topnav-Photo').setAttribute("style","background-color:#F5F5F5;color:#000080");
 </script>
 <div id="body" style="overflow:hidden; box-sizing: border-box; padding:10px;text-align:center">
-	<div id="pwd"> <a href="index.php">Home</a> / <a href="Photo.php">Photo</a> / <a href="Photo_ZJU.php">ZJU</a></div>
-	<a href="img/ZJU/1.jpg" data-lightbox="ZJU" data-title="hahahahahah" >
-	<img src="img/ZJU/thumbnail/1.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/ZJU/2.jpg" data-lightbox="ZJU">
-	<img src="img/ZJU/thumbnail/2.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/ZJU/3.jpg" data-lightbox="ZJU">
-	<img src="img/ZJU/thumbnail/3.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/ZJU/4.jpg" data-lightbox="ZJU">
-	<img src="img/ZJU/thumbnail/4.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/ZJU/5.jpg" data-lightbox="ZJU">
-	<img src="img/ZJU/thumbnail/5.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/ZJU/6.jpg" data-lightbox="ZJU">
-	<img src="img/ZJU/thumbnail/6.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/ZJU/7.jpg" data-lightbox="ZJU">
-	<img src="img/ZJU/thumbnail/7.jpg" width="200px" style="margin:10px;">
-	</a>
-	<a href="img/ZJU/8.jpg" data-lightbox="ZJU">
-	<img src="img/ZJU/thumbnail/8.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/ZJU/9.jpg" data-lightbox="ZJU">
-	<img src="img/ZJU/thumbnail/9.jpg" height="200px" style="margin:10px;">
-	</a>
-	<a href="img/ZJU/10.jpg" data-lightbox="ZJU">
-	<img src="img/ZJU/thumbnail/10.jpg" width="200px" style="margin:10px;">
-	</a>
+	<?php
+        $which = "ZJU";
+        include("showimg.php");
+        ?>	
 </div>
 <?php
 include 'dropdown.html';
