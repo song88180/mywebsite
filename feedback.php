@@ -133,7 +133,7 @@ document.getElementById('topnav-Feedback').setAttribute("style","background-colo
 						<div class='nametime'><span class='name'>".$name."</span> <span class='time'>".$row["date"]."</div> <div class='comment'>".$comment."</div></div>";
 			}
 		} else {
-			echo "0 结果";
+			echo "0 results";
 		}
 		mysqli_close($conn);
 		?>
