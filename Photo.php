@@ -127,6 +127,22 @@ document.getElementById('topnav-Photo').setAttribute("style","background-color:#
 			</div>
 		</div>
 	</div>
+	<div class="photoclass" >
+                <div class="cover">
+                <a href="Photo_UMich.php">
+                <img src="img/UMich/cover.jpg" height="100%" width="auto">
+                </a>
+                </div>
+                <div class="photo-intro">
+                        <h2 class="photo-title">
+                        UMich
+                        </h2>
+                        <div class="photo-text">
+                        In UMich
+                        </div>
+                </div>
+        </div>
+
 	<div id="maintext">
 	</div>
 </div>

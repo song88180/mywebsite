@@ -48,6 +48,7 @@ a{text-decoration:none;}
 	font-weight:bold;
 	color:#000080
 }
+
 </style>
 <script src="lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
 <script>
@@ -71,9 +72,9 @@ document.getElementById('topnav-Photo').setAttribute("style","background-color:#
 </script>
 <div id="body" style="overflow:hidden; box-sizing: border-box; padding:10px; text-align:center">
 	<?php
-	$which = "Harvard";
-	include("showimg.php");
-	?>
+        $which = "UMich";
+        include("showimg.php");
+        ?>
 </div>
 <?php
 include 'dropdown.html';

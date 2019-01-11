@@ -1,4 +1,5 @@
 <?php
+echo "<div id=\"pwd\"> <a href=\"index.php\">Home</a> / <a href=\"Photo.php\">Photo</a> / <a href=\"Photo_$which.php\">$which</a> </div>";
 $files = scandir("img/$which/bigsize");
         $n = count($files) - 2;
         for ($i=1;$i<=$n;$i++){

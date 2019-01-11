@@ -61,7 +61,7 @@ document.getElementById('topnav-AboutMe').setAttribute("style","background-color
 		I'm also interested in applying bioinformatic methods in ecology and evolutionary study.
 		</p>
 		<p>
-		For more information, see my <a href='/document/CV.pdf'>CV</a><br><br><br><br>
+		For more information, see my <a href='/document/CV.pdf' target="_blank">CV</a><br><br><br><br>
 		</p>
 	</div>
 </div>
